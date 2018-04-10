@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CRNotFoundController.h
 //  CRMediator
 //
 //  Created by roger wu on 09/04/2018.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+/**
+ 404
+ */
+@interface CRNotFoundController : UIViewController
 
 @end
-
